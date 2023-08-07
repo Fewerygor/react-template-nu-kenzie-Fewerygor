@@ -1,0 +1,30 @@
+.listContainer {
+    display: flex;
+    // background-color: blue;
+    width: 100%;
+    max-width: 560px;
+    height: 452px;
+    flex-shrink: 0;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h3 {
+            color: var(--grey-4);
+        }
+    }
+
+    &>div {
+        h3 {
+            color: var(--grey-4);
+        }
+
+        p {
+            font-size: var(--title-2);
+            font-weight: 700;
+            color: #343A40;
+        }
+    }
+}

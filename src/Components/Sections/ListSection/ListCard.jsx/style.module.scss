@@ -1,0 +1,49 @@
+.liContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    height: 87px;
+    flex-shrink: 0;
+    border-left: solid 4px var(--color-secondary);
+    border-radius: 4px;
+    background: var(--grey-1);
+
+    .descriptionContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: var(--grey-4);
+        padding: 10px 10px 0;
+        width: 337px;
+        height: 68px;
+        flex-shrink: 0;
+
+        p {
+            font-size: var(--title-4);
+            font-weight: var(--font-weight);
+            line-height: 22px;
+            color: var(--grey-3);
+        }
+    }
+
+    .valueContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 0;
+        width: 100%;
+        max-width: 67px;
+        height: 47px;
+        flex-shrink: 0;
+        gap: 10px;
+
+        button {
+            width: 49px;
+            height: 19px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            background: var(--grey-2);
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 261px;
+
+    .mainContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 60px;
+    }
+}
