@@ -1,5 +1,5 @@
 import { useState } from "react"
-import styles from "./Style.module.scss"
+import styles from "./style.module.scss"
 
 export const Form = ({ addNoteToList }) => {
 

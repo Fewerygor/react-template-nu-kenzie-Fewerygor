@@ -1,7 +1,7 @@
-import { ListCard } from "../ListCard.jsx";
+import { ListCard } from "../ListCard.jsx/index.jsx";
 import styles from "./style.module.scss"
 
-export const ListFunction = ({ notes, removeNoteList }) => {
+export const List = ({ notes, removeNoteList }) => {
 
     return (
         <section className={styles.listContainer}>
@@ -16,7 +16,6 @@ export const ListFunction = ({ notes, removeNoteList }) => {
                     />
                     ))}
                 </ul>
-
             ) : (
                 <div>
                     <ul>
@@ -25,8 +24,6 @@ export const ListFunction = ({ notes, removeNoteList }) => {
                     </ul>
                 </div>
             )}
-
-
         </section>
     )
 }

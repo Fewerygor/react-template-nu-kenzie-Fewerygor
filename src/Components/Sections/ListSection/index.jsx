@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { ListFunction } from "./ListFunction";
-import { Form } from "../FormSection/Form";
+import { List } from "./List";
+import { Form } from "../Form";
 import { v4 as uuidv4 } from 'uuid';
 import { NumberSection } from "../NumberSection";
 import styles from "./style.module.scss";
@@ -22,7 +22,7 @@ export const ListSection = () => {
         <div className={styles.main}>
             <div className={styles.mainContainer}>
                 <Form addNoteToList={addNoteToList} />
-                <ListFunction notes={notes} removeNoteList={removeNoteList} />
+                <List notes={notes} removeNoteList={removeNoteList} />
             </div>
 
             <NumberSection notes={notes} />
