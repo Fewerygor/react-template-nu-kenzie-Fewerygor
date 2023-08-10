@@ -23,9 +23,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 355px;
+    width: 355px;
     height: 434px;
     flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
 
     .flexBox {
         width: 314.5px;
